@@ -1,6 +1,6 @@
 import React from 'react';
 import * as nav from "react-bootstrap";
-import { BiUserCircle } from "react-icons/bi";
+import { FaUserCircle } from "react-icons/fa";
 
 import './Navbar.css';
 
@@ -16,7 +16,7 @@ function Navbar() {
 
                 </div>
                 <div className='userdetail'>
-                    <BiUserCircle className='navicon'/>
+                    <FaUserCircle className='navicon'/>
                     Hello, Client
                 </div>
             </nav.Container>

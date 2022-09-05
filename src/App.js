@@ -12,7 +12,7 @@ import Register from './Client/Register/Register';
 import Submit from './Client/Submit/Submit';
 import Homepage from './Pages/Homepage';
 import Navbar from './Client/Navbar/Navbar';
-// import Navbar from './Client/Navbar/Navbar';
+import Sidebar from './Client/Sidebar/Sidebar';
 // import Dashbord from './Client/Dashbord';
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
             <Route exact path='/register' element={< Register/>}></Route>
             <Route exact path='/submit' element={< Submit/>}></Route>
             <Route exact path='/Navbar' element={< Navbar/>}></Route>
+            <Route exact path='/sidebar' element={< Sidebar/>}></Route>
           </Routes>
         </Router>
     </div>

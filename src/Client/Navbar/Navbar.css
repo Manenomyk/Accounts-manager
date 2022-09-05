@@ -7,7 +7,7 @@
  padding: 0;
  background-color: #1a6985;
  width: auto;
- height: 12vh;
+ height: 11vh;
  box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
  body{
@@ -16,7 +16,7 @@
  }
 
  .logo{
-    font-size: 3rem;
+    font-size: 2rem;
     /* padding-top: 30px; */
     color: white;
 
@@ -27,7 +27,7 @@
     position: absolute;
     left: 80%;
     top: 2%;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Playfair Display', serif;
  }
 
@@ -36,6 +36,7 @@
     padding-top: 20px;
  }
  .navicon{
-    font-size: 5rem;
+    font-size: 3rem;
     cursor: pointer;
+    margin-right: 10px;
  }
