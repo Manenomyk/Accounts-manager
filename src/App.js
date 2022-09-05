@@ -11,7 +11,7 @@ import Profile from './Client/Profile';
 import Register from './Client/Register';
 import Submit from './Client/Submit';
 import Homepage from './Pages/Homepage';
-// import Dashbord from './Client/Dashbord';
+import Navbar from './Client/Navbar';
 // import Dashbord from './Client/Dashbord';
 // import Dashbord from './Client/Dashbord';
 
@@ -28,6 +28,7 @@ function App() {
             <Route exact path='/profile' element={< Profile/>}></Route>
             <Route exact path='/register' element={< Register/>}></Route>
             <Route exact path='/submit' element={< Submit/>}></Route>
+            <Route exact path='/navbar' element={< Navbar/>}></Route>
           </Routes>
         </Router>
     </div>
