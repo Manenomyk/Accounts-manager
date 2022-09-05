@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar'; 
 
 function Payment() {
     return ( 
         <div>
-            hello there
+            <Navbar />
         </div>
      );
 }

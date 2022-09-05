@@ -3,16 +3,16 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Dashbord from './Client/Dashbord';
-import Login from './Client/Login';
-import Payment from './Client/Payment';
-import Preview from './Client/Preview';
-import Profile from './Client/Profile';
-import Register from './Client/Register';
-import Submit from './Client/Submit';
+import Dashbord from './Client/Dashboard/Dashbord';
+import Login from './Client/Login/Login';
+import Payment from './Client/Payment/Payment';
+import Preview from './Client/Preview/Preview';
+import Profile from './Client/Profile/Profile';
+import Register from './Client/Register/Register';
+import Submit from './Client/Submit/Submit';
 import Homepage from './Pages/Homepage';
-import Navbar from './Client/Navbar';
-// import Dashbord from './Client/Dashbord';
+import Navbar from './Client/Navbar/Navbar';
+// import Navbar from './Client/Navbar/Navbar';
 // import Dashbord from './Client/Dashbord';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
             <Route exact path='/profile' element={< Profile/>}></Route>
             <Route exact path='/register' element={< Register/>}></Route>
             <Route exact path='/submit' element={< Submit/>}></Route>
-            <Route exact path='/navbar' element={< Navbar/>}></Route>
+            <Route exact path='/Navbar' element={< Navbar/>}></Route>
           </Routes>
         </Router>
     </div>

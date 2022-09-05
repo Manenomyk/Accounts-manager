@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar'; 
 
 function Preview() {
     return ( 
         <div>
-            hello there
+            <Navbar />
         </div>
      );
 }
