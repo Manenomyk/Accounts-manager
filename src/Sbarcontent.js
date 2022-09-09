@@ -7,27 +7,27 @@ import { BiLogOut } from "react-icons/bi";
 
 export const Sbarcontent = [
     {
-        icon:<AiOutlineUser/>,
+        icon:<AiOutlineUser style={{fontSize:"25px"}}/>,
         title: "Profile",
         link: "./Profile"
     },
     {
-        icon:<RiSendPlaneFill />,
+        icon:<RiSendPlaneFill style={{fontSize:"25px"}}/>,
         title: "Submit",
         link: "./Submit"
     },
     {
-        icon:<BsFillCheckCircleFill />,
+        icon:<BsFillCheckCircleFill style={{fontSize:"25px", color:"green"}} />,
         title: "Preview",
         link: "./Preview"
     },
     {
-        icon:<BsCashCoin/>,
+        icon:<BsCashCoin style={{fontSize:"25px", color:"gray"}}/>,
         title: "Payment",
         link: "./Payment"
     },
     {
-        icon:<BiLogOut />,
+        icon:<BiLogOut style={{fontSize:"25px"}} />,
         title: "Logout",
         link: "./Logout"
     },

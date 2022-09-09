@@ -1,0 +1,61 @@
+#pro{
+    display: flex;
+}
+
+#proContent{
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 12vw;
+    box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+}
+#top{
+    display: flex;
+    gap: 70%;
+    margin-top: 1rem;
+}
+#proicon{
+    position: relative;
+    font-size: 5rem;
+    top: -18px;
+}
+
+.prodetails{
+    margin-left: 27%;
+}
+
+#names{
+    font-size: 20px;
+}
+#inputs{
+    width: 23vw;
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: #e9f5f9;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#inputs:hover{
+    background-color:  #fbfbfb;
+}
+#btn{
+    
+    margin-left:27% ;
+    display: flex;
+    gap: 24%;
+    font-size: 22px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
+}
+#cancel{
+    border: 1px solid grey;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+#update{
+    border: 1px solid grey;
+    padding: 0px 20px;
+    border-radius: 10px;
+}

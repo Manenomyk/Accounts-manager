@@ -1,0 +1,18 @@
+.navsection{
+    margin: 0;
+    padding: 0;
+    background-color: #1a6985;
+    width: auto;
+    height: 11vh;
+    box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+   }
+   .navsection1{
+    margin: 0;
+    padding: 0;
+    background-color: #8fb1be;
+    width: auto;
+    height: 5vh;
+    box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-left: 20px;
+   }
