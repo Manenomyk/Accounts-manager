@@ -13,7 +13,7 @@ import Submit from './Client/Submit/Submit';
 import Homepage from './Pages/Homepage';
 import Navbar from './Client/Navbar/Navbar';
 import Sidebar from './Client/Sidebar/Sidebar';
-// import Dashbord from './Client/Dashbord';
+import Received from './Client/Payment/Received';
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
             <Route exact path='/submit' element={< Submit/>}></Route>
             <Route exact path='/Navbar' element={< Navbar/>}></Route>
             <Route exact path='/sidebar' element={< Sidebar/>}></Route>
+            <Route exact path='/received' element={< Received/>}></Route>
           </Routes>
         </Router>
     </div>

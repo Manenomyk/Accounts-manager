@@ -42,5 +42,5 @@
 .list .row:hover{
     cursor: pointer;
     background-color: #e9f5f9;
-    border-radius: 24px;
+    border-radius: 14px;
 }
