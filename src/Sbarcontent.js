@@ -3,9 +3,14 @@ import { AiOutlineUser } from "react-icons/ai";
 import { RiSendPlaneFill  } from "react-icons/ri";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { BsCashCoin } from "react-icons/bs";
-import { BiLogOut } from "react-icons/bi";
+import { MdDashboardCustomize } from "react-icons/md";
 
 export const Sbarcontent = [
+    {
+        icon:<MdDashboardCustomize style={{fontSize:"25px", color:"blue" }} />,
+        title: "Dashboard",
+        link: "./Dashbord"
+    },
     {
         icon:<AiOutlineUser style={{fontSize:"25px"}}/>,
         title: "Profile",
@@ -26,9 +31,5 @@ export const Sbarcontent = [
         title: "Payment",
         link: "./Payment"
     },
-    {
-        icon:<BiLogOut style={{fontSize:"25px"}} />,
-        title: "Logout",
-        link: "./Logout"
-    },
+    
 ] ;

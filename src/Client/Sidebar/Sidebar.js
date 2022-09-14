@@ -1,6 +1,7 @@
 import React from 'react';
 // import Navbar from '../Navbar/Navbar';
 import { Sbarcontent } from '../../Sbarcontent';
+import { MdLogout } from "react-icons/md";
 
 import './Sidebar.css';
 
@@ -29,6 +30,10 @@ function Sidebar() {
                      
                     })}
                 </ul>
+                <div className='log'>
+                
+                    <h5> <MdLogout id='logouticon' />Logout</h5>
+                </div>
             </div>
         </div>
      );

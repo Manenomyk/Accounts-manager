@@ -44,3 +44,17 @@
     background-color: #e9f5f9;
     border-radius: 14px;
 }
+.log{
+    position: relative;
+    top: 48%;
+    left: 10%;
+    cursor: pointer;
+}
+.log:hover{
+    color: red;
+}
+#logouticon{
+    margin-right: 30px;
+    color: black;
+    font-size: 23px;
+}

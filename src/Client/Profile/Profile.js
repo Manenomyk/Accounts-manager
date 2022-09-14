@@ -47,7 +47,7 @@ function Profile() {
 
                                 <div  id='btn'>
                                     <div>
-                                        <button id='cancel'>Cancel</button>
+                                        <button  id='cancel'>Cancel</button>
                                     </div>
                                     <div>
                                         <button id='update'>Update</button>

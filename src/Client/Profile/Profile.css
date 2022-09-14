@@ -53,9 +53,12 @@
     border: 1px solid grey;
     padding: 0px 20px;
     border-radius: 10px;
+    background-color: rgb(244, 196, 196);
 }
 #update{
     border: 1px solid grey;
     padding: 0px 20px;
     border-radius: 10px;
+    background-color: rgb(177, 232, 177);
+    
 }
