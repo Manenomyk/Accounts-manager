@@ -45,7 +45,7 @@ function Payment() {
                                                 <td>123456</td>
                                                 <td>1234</td>
                                                 <td>pending</td>
-                                                <td><button className='btn btn-danger'> Approve...</button></td>
+                                                <td><button className='btn btn-danger' id='paid'> Approve...</button></td>
                                             </tr>
                                         </tbody>
                                     </table>

@@ -2,10 +2,10 @@
     display: flex;
 }
 .payrow{
-    margin-top:2rem ;
+    margin-top:1rem ;
 }
 .paycard{
-    margin-top: 2rem;
+    margin-top: 1rem;
     box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .link1{
