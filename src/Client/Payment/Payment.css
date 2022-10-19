@@ -1,0 +1,50 @@
+.paybody{
+    display: flex;
+}
+.payrow{
+    margin-top:1rem ;
+}
+.paycard{
+    margin-top: 1rem;
+    box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.link1{
+    text-decoration: none;
+    font-size: 19px;
+    background-color: red;
+    padding: 7px;
+    border-radius: 12px;
+    box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 500;
+}
+.link1:hover{
+    color: rgb(209, 201, 201);
+    background-color: rgb(149, 5, 5);
+}
+.link2{
+    text-decoration: none;
+    font-size: 19px;
+    background-color: green;
+    padding: 7px;
+    border-radius: 12px;
+    box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 500;
+}
+.link2:hover{
+    color: rgb(209, 201, 201);
+    background-color: rgb(3, 82, 3);
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+.recbody{
+    display: flex;
+}
+#paid{
+    cursor: auto;
+    padding: 4px 30px;
+    border-radius: 12px;
+}
