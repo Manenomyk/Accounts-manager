@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Accounts-manager/static/css/main.41ac9099.css",
+    "main.js": "/Accounts-manager/static/js/main.3ceb5d93.js",
+    "static/js/787.cfe69449.chunk.js": "/Accounts-manager/static/js/787.cfe69449.chunk.js",
+    "static/media/work.jpg": "/Accounts-manager/static/media/work.995da1e0f1f676e5c264.jpg",
+    "index.html": "/Accounts-manager/index.html",
+    "main.41ac9099.css.map": "/Accounts-manager/static/css/main.41ac9099.css.map",
+    "main.3ceb5d93.js.map": "/Accounts-manager/static/js/main.3ceb5d93.js.map",
+    "787.cfe69449.chunk.js.map": "/Accounts-manager/static/js/787.cfe69449.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41ac9099.css",
+    "static/js/main.3ceb5d93.js"
+  ]
+}
